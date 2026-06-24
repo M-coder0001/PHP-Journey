@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>First PHP Page</h1>
+    <p>This is a simple PHP page.</p>
+
+    <?php
+    echo "<p>Hello, World!</p>";
+    ?>
+
+    <h2>This is h2 tag</h2>
+</body>
+</html>
