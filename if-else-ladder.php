@@ -8,7 +8,7 @@
 <body>
     
     <?php
-        $x = 30;
+        $x = 100;
         if($x == 30){
             echo "<p style='font-size: 35px; color: red;'>The value of x is 30</p>";
         }
