@@ -12,7 +12,7 @@
             $area = pi * $r * $r;
             echo "Area of Circle = $area";
         }
-        area(5);
+        area(6);
     ?>
 </body>
 </html>
