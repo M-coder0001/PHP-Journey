@@ -13,7 +13,7 @@
         $c [1] = "Rajkot";
         $c [2] = true;
 
-        for($i = 0; $i<5; $i++){
+        for($i = 0; $i<4; $i++){
             echo $a[$i]."<br>";
         }
         foreach($b as $value){
