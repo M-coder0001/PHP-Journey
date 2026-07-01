@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        $color = 'navy';
+        $color = 'white';
         switch ($color) {
             case 'yellow':
                 echo "<body bgcolor='yellow'></body>";
