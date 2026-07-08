@@ -1,7 +1,7 @@
 <?php
-    $a = array("First" => array("Mayank", 20, "Rajkot"),
-                "Second" => array("Ravi", 25, "Ahmedabad"),
-                "Third" => array("Raj", 30, "Surat")
+    $a = array("First" => array("Name" => "Mayank","Age" => 20,"City" => "Rajkot"),
+                "Second" => array("Name" => "Ravi","Age" => 25,"City" => "Ahmedabad"),
+                "Third" => array("Name" => "Raj","Age" => 30,"City" => "Surat")
             );
     foreach($a as $key => $value){
         echo "$key : ";
