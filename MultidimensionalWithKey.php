@@ -5,8 +5,8 @@
             );
     foreach($a as $key => $value){
         echo "$key : ";
-        foreach($value as $x){
-            echo "$x ";
+        foreach($value as $key1 => $x){
+            echo "[$key1] = $x ";
         }
         echo "<br>";
     }
