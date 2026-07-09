@@ -1,12 +1,12 @@
 <?php
-    function addition($x, $y){
+    function addition($x, $y= 40){
         $a = $x + $y;
         return $a;
     }
     echo addition(10);
     echo "<br>";
-
-    //other way to print the result of the function
+    
+    //Reassigning the value of the second argument
     $result = addition(10, 20);
     echo "Addition of 10 and 20 is: " . $result;
 ?>
