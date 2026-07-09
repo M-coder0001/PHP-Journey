@@ -1,13 +1,13 @@
 <?php
     function sum($a) {
         $b = func_get_args();
-        $sum = 0;
+        $S = 0;
 
         foreach($b as $value) {
-            $sum += $value;
+            $S += $value;
             
         }
-        return $sum;
+        return $S;
     }
     $d = sum(10, 2.5, 3.5);
     echo "The sum of the arguments is: " . $d . "<br>";
