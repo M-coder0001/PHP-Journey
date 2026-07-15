@@ -7,7 +7,7 @@
     trim($a);
     echo "Length is: $a<br>";
     $b = array("hello", "how", "are", "you");
-    echo join(" ", $b);
+    echo join(" ", $b)."<br>";
     echo substr("Friend",3)."<br>";
     echo str_replace("your","my","This is your choice")."<br>";
 
