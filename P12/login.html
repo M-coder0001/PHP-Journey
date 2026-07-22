@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <style>
+        td {
+            background-color: rgb(246, 229, 74);
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="show.php" method="post">
+    <table border="2" align="center">
+        <tr>
+            <td colspan="2"><b>LOGIN</b></td>
+        </tr>
+
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="username" autocomplete="off"></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pass" maxlength="6"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="sb" value="Login">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
