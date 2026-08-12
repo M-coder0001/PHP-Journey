@@ -12,7 +12,7 @@
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
-        </select><br>
+        </select><br><br>
         Subject: <select name="sub[]" size="4" multiple="multiple">
             <option value="PHP">PHP</option>
             <option value="Python">Python</option>
@@ -21,7 +21,8 @@
             <option value="Java">Java</option>
         </select>
         <br>
-        <input type="submit" name="submit" value="Display">
+        <br>
+        <input type="submit" name="submit" value="Display"><br><br>
     </form>
     <?php
 
