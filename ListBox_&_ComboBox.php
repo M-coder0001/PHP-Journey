@@ -23,5 +23,32 @@
         <br>
         <input type="submit" name="submit" value="Display">
     </form>
+    <?php
+
+        if (isset($_GET["submit"])) 
+        {
+            if (isset($_GET["sub"]) && isset($_GET["sem"]))
+            {
+                echo "Semester is: " . $_GET["sem"] . "<br>";
+
+                $a = $_GET["sub"];
+
+                $x = "Subjects are: ";
+
+                foreach ($a as $value) 
+                {
+                    $x .= $value . ", ";    
+                }
+
+                echo $x . "<br>";
+            }
+            else
+            {
+                echo "<script>
+                        alert('Please Select Data First');</script>";
+            }
+        }
+
+    ?>
 </body>
 </html>
