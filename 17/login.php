@@ -45,7 +45,10 @@
     </form>
     <?php
         if(isset($_POST['sb'])) {
-            if($_POST['email'] == "mayankchandrapal@gmail.com" && $_POST['pass'] == "M@y@nk_0001") {
+            $email = $_POST['email'];
+            $password = $_POST['pass'];
+
+            if($email == "mayankchandrapal@gmail.com" && $password == "mayank123") {
                 echo "<script>alert('Login successful!');</script>";
             } else {
                 echo "<script>alert('Invalid email or password. Please try again.');</script>";
