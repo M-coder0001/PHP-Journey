@@ -9,7 +9,7 @@
     }
     else
     {
-        echo "Welcome, " . $_SESSION['username'] . "!<br>";
+        echo "Welcome, " . $_SESSION['username'] . "<br>";
         echo "<a href='logout.php'>LOGOUT</a>";
     }
 ?>
