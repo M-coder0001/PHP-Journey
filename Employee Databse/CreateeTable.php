@@ -14,8 +14,4 @@
             echo "Error creating database: " . mysqli_error($c);
         }
     }
-    else
-    {
-        echo "Connection failed: " . mysqli_connect_error();
-    }
 ?>
