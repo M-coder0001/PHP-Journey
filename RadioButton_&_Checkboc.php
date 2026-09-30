@@ -7,9 +7,9 @@
 </head>
 
 <body>
-
+<form method="get">
     <table border="2" style="margin: auto;">
-        <form method="get">
+        
 
             <tr>
                 <td>Semester</td>
@@ -65,8 +65,9 @@
                 </td>
             </tr>
 
-        </form>
+        
     </table>
+    </form>
 
 
     <?php

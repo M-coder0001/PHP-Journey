@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="display.php" method="post">
+        <table border = "2">
+            <tr>
+                <td>Semester</td>
+                <td>
+                    <input type="radio" name="sem" value="sem-1">
+                    Semester-1
+                </td>
+                <td>
+                    <input type="radio" name="sem" value="sem-2">
+                    Semester-2
+                </td>
+                <td>
+                    <input type="radio" name="sem" value="sem-3">
+                    Semester-3
+                </td>
+                <td>
+                    <input type="radio" name="sem" value="sem-4">
+                    Semester-4
+                </td>
+            </tr>
+            <tr>
+                <td>Subject</td>
+                <td>
+                    <input type="checkbox" name="sub[]" value="PHP">
+                    PHP
+                </td>
+                <td>
+                    <input type="checkbox" name="sub[]" value="Python">
+                    Python
+                </td>
+                <td>
+                    <input type="checkbox" name="sub[]" value="Java">
+                    Java
+                </td>
+                <td>
+                    <input type="checkbox" name="sub[]" value="NIS">
+                    NIS
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="sb" value="Display"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
